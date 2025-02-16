@@ -1,0 +1,44 @@
+
+body  {
+    background-color: #ffffff;
+    color:#ff0000;
+}
+.titulo-blog {
+    color: #000000;
+}
+
+.titulo-destacado{
+    color: #FF5733; /* Elige un color vibrante */;
+}
+
+.subtitulo {
+    color: #FF5733;
+}
+
+.flex-container{
+    display: flex;
+    /*background-color: #818181;*/
+}
+
+.flex-container > div{
+    margin: 100px;
+}
+
+.boton{
+    background-color: #597bc5;  
+    color:#ffffff;
+    padding: 15px 20px;
+    width: 120px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius:10px;
+}
+
+#panel-izquierda{
+    flex-grow: 2;
+}
+
+#panel-derecha{
+    flex-grow: 1;
+}
